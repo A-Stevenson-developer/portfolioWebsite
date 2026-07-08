@@ -21,23 +21,23 @@
   $contact->ajax = false;
   
   $contact->to = $receiving_email_address;
-  $contact->from_name = $_POST['name'];
-  $contact->from_email = $_POST['email'];
-  $contact->subject = $_POST['subject'];
+  $contact->from_name = $_REQUEST['name'];
+  $contact->from_email = $_REQUEST['email'];
+  $contact->subject = $_REQUEST['subject'];
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
   
   $contact->smtp = array(
     'host' => 'panel.freehosting.com',
     'username' => 'ashleytstevenson123@gmail.com',
-    'password' => 'codingisfun123',
+    'password' => 'mehd uigo cwyv mkxb',
     'port' => '465'
   );
   
 
-  $contact->add_message( $_POST['name'], 'From');
-  $contact->add_message( $_POST['email'], 'Email');
-  $contact->add_message( $_POST['message'], 'Message', 10);
+  $contact->add_message( $_REQUEST['name'], 'From');
+  $contact->add_message( $_REQUEST['email'], 'Email');
+  $contact->add_message( $_REQUEST['message'], 'Message', 10);
 
   echo $contact->send();
 ?>
