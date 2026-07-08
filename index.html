@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>My portfolio site</title>
+  <meta name="description" content="All about me">
+  <meta name="keywords" content="portfolio">
+  <meta name="author" content="Ashley Stevenson">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!--Other CSS files-->
+  <link href="fontawesome-free-7.1.0-web/fontawesome-free-7.1.0-web/css/all.min.css">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: DevFolio
+  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">DevFolio</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown for Subsections</span> <i class="fa-solid fa-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#skills">Skills</a></li>
+              <li class="dropdown"><a href="#"><span>Skill</span> <i class="fa-solid fa-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#html">HTML</a></li>
+                  <li><a href="#css">CSS</a></li>
+                  <li><a href="#jquery">jQuery</a></li>
+                  <li><a href="#javascript">JavaScript</a></li>
+                  <li><a href="#php">PHP</a></li>
+                  <li><a href="#bootstrap">Bootstrap</a></li>
+                  <li><a href="#sql">SQL</a></li>
+                  <li><a href="#json">JSON</a></li>
+                  <!--add more when there is more languages/framewors are learned/deployed ie c# or react-->
+                </ul>
+              </li>
+              <li><a href="#hobbies">Hobbies</a></li>
+              <li><a href="#projectModals">Project modals</a></li>
+              <li><a href="#linksToProjects">Project links</a></li>
+            </ul>
+          </li>
+          <li><a href="#CV">CV</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#professionalSocials">Professional Socials</a></li>
+        </ul> <!--end of nav list-->
+        <i class="mobile-nav-toggle fa-solid fa-bars fa-xl"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/background-pic.jpg" alt="" data-aos="fade-in" alt="a picture of me as a background image"> <!--will replace image on monday-->
+
+      <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+        <h2>I am Ashley Stevenson</h2>
+        <p><span class="typed" data-typed-items=" and I am a web developer"></span></p>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-md-6">
+
+            <div class="row justify-content-between gy-4">
+              <div class="col-lg-5">
+                <img src="assets/img/profile-pic.jpg" class="img-fluid" alt="A picture of me"> <!--will replace image on monday-->
+              </div>
+              <div class="col-lg-7 about-info">
+                <p><strong>Name: </strong> <span>Ashley Stevenson</span></p>
+                <p><strong>Profile: </strong> <span>Student, studying with IT Career Switch</span></p>
+              </div>
+            </div>
+
+            <div id="skills" class="skills-content skills-animation">
+
+              <h5>Skills</h5>
+
+             <div id="html" class="row">
+              <div class="col">
+                <img src="assets/img/html.jpg" alt="HTML logo">
+                <p>HTML</p>
+              </div>
+             </div>
+
+             <div id="css" class="row">
+              <div class="col">
+                <img src="assets/img/css.jpg" alt="CSS logo">
+                <p>CSS</p>
+              </div>
+             </div>   
+             
+             <div id="jquery" class="row">
+              <div class="col">
+                <img src="assets/img/jquery.jpg" alt="jQuery logo">
+                <p>jQuery</p>
+              </div>
+             </div>
+
+             <div id="javascript" class="row">
+              <div class="col">
+                <img src="assets/img/javascript.jpg" alt="JavaScript logo">
+                <p>JavaScript</p>
+              </div>
+             </div>
+
+             <div id="php" class="row">
+              <div class="col">
+                <img src="assets/img/php.jpg" alt="PHP logo">
+                <p>PHP</p>
+              </div>
+             </div>
+
+             <div id="bootstrap" class="row">
+              <div class="col">
+                <img src="assets/img/bootstrap.jpg" alt="Bootstrap logo">
+                <p>Bootstrap</p>
+              </div>
+             </div>
+
+             <div id="sql" class="row">
+              <div class="col>">
+                <img src="assets/img/sql.jpg" alt="SQL logo">
+                <p>SQL</p>
+              </div>
+             </div>
+
+             <div id="json" class="row">
+              <div class="col">
+                <img src="assets/img/json.jpg" alt="JSON logo">
+                <p>JSON</p>
+              </div>
+             </div>
+
+              <!--Add more languages/frameworks learned/deployed ie c# (which was learned) also, change the progress bar to a responsive grid and use the official logo (download an image off of google if have to)-->
+
+             
+
+              
+
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="about-me">
+              <h4>About me</h4>
+              <p>
+                Hi, my name is Ashley Stevenson and here I am going to tell you all about me.
+              </p>
+              <p>
+                I am 25 years old, studying coding with IT Career Switch and I am high functioning autistic. I like to build websites and do coding and markup language courses in my spare time in which I would then be able to apply what I have learned in a course in a project.
+              </p>
+              <p>
+                I would like to highlight my top 3 hobbies: <br> Number 1 is the gym. I use the gym as a stress relief and a way to keep fit and become more comfortable in my skin. <br> Hobby number 2 is playing video games. The reason why this hobby is in the big 3 is because it looks good on a CV as it shows I can work alone and with a group of people towards a goal. <br> And finally hobby number 3, which is Yu-Gi-Oh. The reason why Yu-Gi-Oh is a big 3 hobby is because it shows that I can take a large project, i.e., building a website, and break it down into simple steps. It also shows that I know basic Math and English. <br> There will be an unorderd list of 10 of hobbies later in this site.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-6">
+        <div id="hobbies" class="top10Hobbies">
+          <h4>Hobbies</h4>
+          <p>Below is a list of my top 10 hobbies:</p>
+          <ul>
+            <li>Learning coding languages,</li>
+            <li>Gym,</li>
+            <li>Video games,</li>
+            <li>Yu-Gi-Oh,</li>
+            <li>Watching anime,</li>
+            <li>Learning about the lore of my favourite video games or my favourite video game characters,</li>
+            <li>Building pixel arts in Minecraft,</li>
+            <li>Writing short stories,</li>
+            <li>Doing glitches in Gen 1 Pok&eacute;mon,</li>
+            <li>Reading books to do with video games</li>
+          </ul>
+        </div>
+      </div>     
+    </section><!-- /About Section -->
+
+    <!-- Resume Section -->
+    <section id="CurriculumVitae" class="cirriculum vitae section">
+
+      <!-- Section Title -->
+      <div id="CV" class="container section-title" data-aos="fade-up">
+        <h2>Curriculum Vitae</h2>
+        <p>I am currently building my experience and will update this section soon.</p>
+      </div><!-- End Section Title -->
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+      <div id="projectModals"> 
+        <h2>My Projects</h2>
+        <p>Here is where I will showcase my projects and have modals for the description and languages used for the projects. </p>
+
+        <div id="personalProject1Description" class="modal" data-bs-backdrop="false" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content shadow">
+                <div class="modal-header bg-success bg-gradient text-white">
+                    <h5 class="modal-title">Personal Project 1</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-striped">
+                        <tr>
+                            <td>Description:</td>
+                            <td class="text-end">
+                              This is a project designed as a basic website showing off my top 10 favourite Yu-Gi-Oh cards. It is designed to showcase how I would do a basic informational website.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Languages used:
+                            </td>
+                            <td class="text-end" id="link">
+                                HTML and CSS
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-success btn-sm" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="personalProject2Description" class="modal" data-bs-backdrop="false" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content shadow">
+                <div class="modal-header bg-success bg-gradient text-white">
+                    <h5 class="modal-title">Personal Project 2</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-striped">
+                        <tr>
+                            <td>Description:</td>
+                            <td class="text-end">
+                              This one is designed to showcase my use of the ul tag.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Languages used:
+                            </td>
+                            <td class="text-end" id="link">
+                                HTML and CSS
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-success btn-sm" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="personalProject3Description" class="modal" data-bs-backdrop="false" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content shadow">
+                <div class="modal-header bg-success bg-gradient text-white">
+                    <h5 class="modal-title">Personal Project 3</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-striped">
+                        <tr>
+                            <td>Description:</td>
+                            <td class="text-end" id="wikipediaSearchInfo">
+                              This project is designed to showcase the use of the section tag
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Languages used:
+                            </td>
+                            <td class="text-end" id="link">
+                                HTML and CSS
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-success btn-sm" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="personalProject4Description" class="modal" data-bs-backdrop="false" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content shadow">
+                <div class="modal-header bg-success bg-gradient text-white">
+                    <h5 class="modal-title">Personal Project 4</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-striped">
+                        <tr>
+                            <td>Description:</td>
+                            <td class="text-end" id="wikipediaSearchInfo">
+                              This project was designed to showcase my ability to write PHP files that grabbed information from an API which is retrieved via an AJAX call and gets displayed on the website in a paragraph tag via a set of parameters and button click.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Languages used:
+                            </td>
+                            <td class="text-end" id="link">
+                                HTML, CSS, jQuery and PHP
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-success btn-sm" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div id="practicalProject1Description" class="modal" data-bs-backdrop="false" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content shadow">
+                <div class="modal-header bg-success bg-gradient text-white">
+                    <h5 class="modal-title">Practical Project 1</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-striped">
+                        <tr>
+                            <td>Description:</td>
+                            <td class="text-end" id="wikipediaSearchInfo">
+                              This project grabs info from a country that is selected from a dropdown menu that is populated via grabbing the contents from a JSON file via PHP and using an AJAX call to do the populating via a for loop. It grabs the information from APIs that I chose to use which is retrieved via a PHP file, one file for each API, and then displayed in a modal via AJAX calls.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Languages used:
+                            </td>
+                            <td class="text-end" id="link">
+                                HTML, CSS, JSON, PHP and jQuery
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-success btn-sm" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div id="practicalProject2Description" class="modal" data-bs-backdrop="false" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content shadow">
+                <div class="modal-header bg-success bg-gradient text-white">
+                    <h5 class="modal-title">Practical Project 2</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-striped">
+                        <tr>
+                            <td>Description:</td>
+                            <td class="text-end" id="wikipediaSearchInfo">
+                              This project is designed to: render 3 different tables, viewable via a button click to show that table, search for and filter personnel, edit, delete and add: personnel, departments and locations via clicking on the specific button. The tables were created via sql but rendered via jquery. The filter, search, add, edit and delete was done via sql in a PHP file for each operation.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                              Languages used:
+                            </td>
+                            <td class="text-end" id="link">
+                              HTML, CSS, SQL, PHP and jQuery
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-success btn-sm" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+      <div class="buttons">
+         <button id="personalProject1Button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#personalProject1Description">
+          <i class="fa-solid fa-1"></i>
+         </button> <br>
+         <button id="personalProject2Button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#personalProject2Description">
+          <i class="fa-solid fa-2"></i>
+         </button> <br>
+         <button id="personalProject3Button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#personalProject3Description">
+          <i class="fa-solid fa-3"></i>
+         </button> <br>
+         <button id="practicalProject1Button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#practicalProject1Description">
+          <i class="fa-solid fa-4"></i>
+         </button> <br>
+         <button id="personalProject4Button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#personalProject4Description">
+          <i class="fa-solid fa-5"></i>
+         </button> <br>
+         <button id="practicalProject2Button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#practicalProject2Description">
+          <i class="fa-solid fa-6"></i>
+         </button>
+      </div>
+
+      <div id="linksToProjects"> 
+        <h2>Links to my projects</h2>
+        <p>Here are the links to my projects:</p>
+        <div class="portfolio-item">
+            <a class="preview-link" href="https://ashleystevenson.net/Practicewebsite1/" target="_blank"><img src="assets/img/favouriteyugiohcards.jpg" alt="a preview image of the favouriteYu-Gi-Ohcards website used as a link to the website"></a>
+            <a href="https://ashleystevenson.net/Practicewebsite1/" target="_blank"><p class="details-link">This was the first project I did, it's just my top 10 favourite Yu-Gi-Oh cards</p></a>
+          </div>
+        <div class="portfolio-item">
+            <a class="preview-link" href="https://ashleystevenson.net/Practicewebsite2/" target="_blank"><img src="assets/img/missingnofacts.jpg" alt="a preview image of the missingnofacts website used as a link to the website"></a>
+            <a href="https://ashleystevenson.net/Practicewebsite2/" target="_blank"><p class="details-link">This is my second project, it's just an underorderd list of missingno facts</p></a>
+          </div>
+          <div class="portfolio-info">
+            <a class="preview-link" href="https://ashleystevenson.net/Practicewebsite3/" target="_blank"><img src="assets/img/favouriteglitchpokemon.jpg" alt="a preview image of the favourite glicth pokemon used as a link to the website"</a>
+            <a href="https://ashleystevenson.net/Practicewebsite3/" target="_blank"><p class="details-link">This was the third project I did, each one of my favourite glitch pokemon is in its own section</p></a>
+        </div>
+        <div class="portfolio-item">
+            <a class="preview-link" href="https://ashleystevenson.net/project1/" target="_blank"><img src="assets/img/gazzetter.jpg" alt="a preview image of the gazzetter website used as a link to the website"></a>
+            <a href="https://ashleystevenson.net/project1/" target="_blank"><p class="details-link">This was my fourth project but the first project done with IT career switch, this project was designed so the user can select a country using a dropdown menu and open a modal and learn some facts about a country. These facts were obtained using APIs that I chose to use in the project</p></a>
+        </div>
+        <div class="portfolio-item">
+            <a class="preview-link" href="https://ashleystevenson.net/Practicewebsite4/" target="_blank"><img src="assets/img/APIpractice.jpg" alt="a preview image of the API practice website used as a link to the webiste"</a>
+            <a href="https://ashleystevenson.net/Practicewebsite4/" target="_blank"><p class="details-link">This was my fifth project and the first personal project to showcase APIs, this one is basically the task I was given to do before the two projects. <br> It consists of a table that has: the name of the chosen APIs, the parameters of the chosen APIs, a button for each API and a link to each API and the the rest of the website consists of: 3 form elements, 2 for the first API and 1 for the second API, these form elements is where users type in the parameters for the APIs then click the button for the API to run an AJAX call to retrieve the information based on the parameters and display them in the paragraph tags that start off as value.</p></a>
+        </div>
+        <div class="portfolio-item">
+            <a class="preview-link" href="https://ashleystevenson.net/project2/" target="_blank"><img src="assets/img/companydirectory.jpg" alt="a preview image of the company directory used as a link to the website"></a>
+            <a href="https://ashleystevenson.net/project2/" target="_blank"><p class="details-link">This was my sixth (and so far latest) project and it was the second and final project from IT career switch. Basically, it consists of 3 tables (created in SQL, rendered table made in HTML and rows added in JavaScript (well more specifically jQuery), the SQL statements were done in PHP files (which is the files that will have the most time spent on) and the functionality was also made possible thanks to a jQuery filled JavaScript file.</p></a>
+          </div>
+        <!--make these images spread evenly across the screen (most likely paddy meant horizontal, look in the main CSS file to see what the ruling is for the images being spread evenly that would give the answer to what class/id you need to make em styled)-->
+        <!--whenever a new project is made, add it here. Don't forget to make a modal for it that has a more in depth description and the languages used.-->
+      </div>
+
+      <div id="cv"> 
+        <h2>Download button for my CV</h2>
+        <a href="resume/Resume.pdf" download="AshleyStevensonCV.pdf" target="_blank"><button>Download</button></a>
+      </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Here is how you can contact me:</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-5">
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                  <div>
+                   
+                  </div>
+                </div>
+              </div><!-- End Info Item -->
+            </div>
+          </div>
+        </div>
+
+        <form id="contactForm" action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
+          <div class="row gy-4">
+
+            <div class="col-md-6">
+              <input id="name" type="text" name="name" class="form-control" placeholder="Your Name" required="">
+            </div>
+
+            <div class="col-md-6 ">
+              <input id="email" type="email" class="form-control" name="email" placeholder="Your Email" required="">
+            </div>
+
+            <div class="col-md-12">
+              <input id="subject" type="text" class="form-control" name="subject" placeholder="Subject" required="">
+            </div>
+
+            <div class="col-md-12">
+              <textarea id="message" class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+
+              <button type="submit">Send Message</button>
+            </div>
+
+          </div>
+        </form><!-- End Contact Form -->
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer accent-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">DevFolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div id="professionalSocials" class="social-links d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/ashley-stevenson-30b9b62aa/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/A-Stevenson-developer" target="_blank"><i class="fa-brands fa-github"></i></a> 
+        <p>My Linkedin profile contains all my coding-related certificates. My GitHub contains all my projects that are not set to private.</p>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="fa-solid fa-arrow-up"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!--jQuery file-->
+  <script src="jquery/jquery-3.7.1.min.js"></script>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!--Other JS Files-->
+  <script src="fontawesome-free-7.1.0-web/fontawesome-free-7.1.0-web/js/all.min.js"></script>
+  <script src="assets/js/modalButtonFunctionality.js"></script>
+  <script src="assets/js/ajaxCallForContactForm.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
